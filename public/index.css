@@ -1,0 +1,174 @@
+/* COMPONENT SELECTORS */
+body {
+  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif
+}
+
+h1 {
+  font-family: 'Carter One', cursive;
+  color: #084887;
+}
+
+h2 {
+  font-family: 'Carter One', cursive;
+  font-size: 25px;
+  font-weight: 900;
+  letter-spacing: 3px
+}
+
+h3 {
+  font-size: 25px;
+  margin-bottom: 0;
+}
+
+nav {
+  background-color: #084887;
+}
+
+li {
+  text-align: left;
+}
+
+.timeline-item {
+  padding: 30px;
+  background-color: white;
+  width: 30rem;
+  text-align: center;
+  border: solid;
+  border-radius: 20px;
+  border-width: 10px;
+  border-color: #12B79E;
+}
+
+.timeline-end{
+  stroke:#909CC2; 
+  fill:#909CC2;
+}
+
+.timeline-text{
+  font-size: 70%;
+}
+
+.navbar h1 {
+  color: white;
+}
+
+/********************************************************* ID SELECTORS **********************************************************/
+/* LANDING PAGE */
+#landing {
+  background-color: #909CC2;
+  text-align: center;
+  color: white;
+}
+
+#landing h1 {
+  padding-top: 80px;
+}
+
+#landing img {
+  margin-top: 30px;
+  height: 200px;
+  width: 200px;
+}
+
+/* PROFESSIONAL TIMELINE */
+#professional-timeline {
+  background-color: #F7F5FB;
+  padding: 30px;
+  text-align: center;
+  color: #084887;
+}
+
+#professional-timeline h2 {
+  color: #084887;
+  font-size: 25px;
+}
+
+.timeline-line {
+  stroke-width: 6px;
+  stroke: #909CC2;
+}
+.timeline-event {
+  stroke: #12B79E;
+  stroke-width: 4px;
+  fill:#F7F5FB;
+}
+
+/* PROGRAMS */
+#programs {
+  background-color: #909CC2;
+  padding: 20px;
+  text-align: center;
+  border-width: 10px;
+  border-color: #12B79E;
+  color: white;
+}
+
+
+.applications {
+  padding: 0px;
+  background-color: white;
+  width: 30rem;
+  text-align: center;
+  border: solid;
+  border-radius: 25px;
+  border-width: 8px;
+  border-color: #084887;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+.application-category {
+  background-color: #084887;
+  margin: 0px;
+  padding-bottom:10px;
+}
+
+.applications img {
+  height: 60px;
+  width: 60px;
+  padding: 10px;
+}
+
+.app-identifier {
+  color:#12B79E;
+}
+
+
+/* Icons */
+            i {
+              color: black;
+              padding-top: 10px;
+            }
+            .fa-css3-alt {
+              color: #2196F3;
+            }
+
+            .fa-html5 {
+              color:#EF652A;
+            }
+
+            .fa-js {
+              color: #F7DF1E;
+            }
+
+            .fa-react {
+              color: #56C2DE;
+            }
+
+            .fa-bootstrap {
+              color: #563D7C;
+
+            }
+
+            .fa-node-js {
+              color: #72B012;
+
+            }
+
+
+.applications i {
+  padding-left: 5px;
+  padding-right: 5px;
+}
