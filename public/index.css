@@ -71,19 +71,20 @@ li {
   stroke-width: 6px;
   stroke: #909CC2;
 }
+
 .timeline-event {
   stroke: #12B79E;
   stroke-width: 4px;
-  fill:#F7F5FB;
+  fill: #F7F5FB;
 }
 
-circle.timeline-event:hover{
-  fill:  #12B79E;
+circle.timeline-event:hover {
+  fill: #12B79E;
 }
 
-.timeline-end{
-  stroke:#909CC2; 
-  fill:#909CC2;
+.timeline-end {
+  stroke: #909CC2;
+  fill: #909CC2;
 }
 
 .timeline-item {
@@ -98,7 +99,8 @@ circle.timeline-event:hover{
   border-width: 10px;
   border-color: #12B79E;
 }
-.timeline-text{
+
+.timeline-text {
   font-size: 70%;
 }
 
@@ -130,7 +132,7 @@ circle.timeline-event:hover{
 .application-category {
   background-color: #084887;
   margin: 0px;
-  padding-bottom:10px;
+  padding-bottom: 10px;
 }
 
 .applications img {
@@ -140,43 +142,45 @@ circle.timeline-event:hover{
 }
 
 .app-identifier {
-  color:#12B79E;
+  color: #12B79E;
 }
 
 
 /* Icons */
-            i {
-              color: black;
-              padding-top: 10px;
-            }
-            i:hover{
-              color: #12B79E;
-            }
-            .fa-css3-alt {
-              color: #2196F3;
-            }
+i {
+  color: black;
+  padding-top: 10px;
+}
 
-            .fa-html5 {
-              color:#EF652A;
-            }
+i:hover {
+  color: #12B79E;
+}
 
-            .fa-js {
-              color: #F7DF1E;
-            }
+.fa-css3-alt {
+  color: #2196F3;
+}
 
-            .fa-react {
-              color: #56C2DE;
-            }
+.fa-html5 {
+  color: #EF652A;
+}
 
-            .fa-bootstrap {
-              color: #563D7C;
+.fa-js {
+  color: #F7DF1E;
+}
 
-            }
+.fa-react {
+  color: #56C2DE;
+}
 
-            .fa-node-js {
-              color: #72B012;
+.fa-bootstrap {
+  color: #563D7C;
 
-            }
+}
+
+.fa-node-js {
+  color: #72B012;
+
+}
 
 
 .applications i {
