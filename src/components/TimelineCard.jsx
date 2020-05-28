@@ -5,9 +5,10 @@ function TimelineCard(props) {
   return (
     <div>
       <h2 class="card-title">{props.title}</h2>
+      <p>{props.time}</p>
       <ul>
-        {props.description.map((e) => (
-          <li>{e}</li>
+        {props.description.map((descriptionItem) => (
+          <li>{descriptionItem}</li>
         ))}
       </ul>
     </div>

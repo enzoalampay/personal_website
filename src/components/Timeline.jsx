@@ -15,6 +15,7 @@ function Timeline() {
     setTimelineCard(
       <TimelineCard
         title={selectedEvent.title}
+        time={selectedEvent.time}
         description={selectedEvent.description}
       />
     );

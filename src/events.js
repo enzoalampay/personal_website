@@ -1,29 +1,37 @@
 var events = [{
         id: "graduation",
-        title: "Title 1",
+        title: "Graduation",
+        time: "May 2017",
+        cx: "62",
         description: [
-            "Description 1", "Description 2", "Description 3"
+            "Graduated with a degree in BS Psychology"
         ]
     },
     {
         id: "kahon",
-        title: "Title 2",
+        title: "Started working Kahon.ph",
+        time: "July 2017",
+        cx: "90",
         description: [
-            "Description 1", "Description 2", "Description 3"
+            "Carried boxes and served the company's first customers", "Worked as a Product Manager", "Learned A LOT"
         ]
     },
     {
         id: "digiscript",
-        title: "Title 3",
+        title: "Joined Digiscript",
+        time: "March 2020",
+        cx: "268",
         description: [
-            "Description 1", "Description 2", "Description 3"
+            "Used my experience and learnings to help the family business", "Optimized company processes and improved data gathering and documentation"
         ]
     },
     {
         id: "coding",
-        title: "Title 4",
+        title: "Began my coding journey",
+        time: "April 2020",
+        cx: "300",
         description: [
-            "Description 1", "Description 2", "Description 3"
+            "Learned programming online with all the time at home due to the lockdowns",
         ]
     }
 

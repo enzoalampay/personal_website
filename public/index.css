@@ -1,19 +1,19 @@
 /* COMPONENT SELECTORS */
 body {
-  color: #FFFFFF;
-  font-family: 'Open Sans', sans-serif
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
 }
 
 h1 {
-  font-family: 'Carter One', cursive;
+  font-family: "Carter One", cursive;
   color: #084887;
 }
 
 h2 {
-  font-family: 'Carter One', cursive;
+  font-family: "Carter One", cursive;
   font-size: 25px;
   font-weight: 900;
-  letter-spacing: 3px
+  letter-spacing: 3px;
 }
 
 h3 {
@@ -27,10 +27,8 @@ nav {
 
 li {
   text-align: left;
+  font-size: 1rem;
 }
-
-
-
 
 .navbar h1 {
   color: white;
@@ -39,7 +37,7 @@ li {
 /********************************************************* ID SELECTORS **********************************************************/
 /* LANDING PAGE */
 #landing {
-  background-color: #909CC2;
+  background-color: #909cc2;
   text-align: center;
   color: white;
 }
@@ -56,7 +54,7 @@ li {
 
 /* PROFESSIONAL TIMELINE */
 #professional-timeline {
-  background-color: #F7F5FB;
+  background-color: #f7f5fb;
   padding: 30px;
   text-align: center;
   color: #084887;
@@ -69,22 +67,22 @@ li {
 
 .timeline-line {
   stroke-width: 6px;
-  stroke: #909CC2;
+  stroke: #909cc2;
 }
 
 .timeline-event {
-  stroke: #12B79E;
+  stroke: #12b79e;
   stroke-width: 4px;
-  fill: #F7F5FB;
+  fill: #f7f5fb;
 }
 
 circle.timeline-event:hover {
-  fill: #12B79E;
+  fill: #12b79e;
 }
 
 .timeline-end {
-  stroke: #909CC2;
-  fill: #909CC2;
+  stroke: #909cc2;
+  fill: #909cc2;
 }
 
 .timeline-item {
@@ -97,7 +95,7 @@ circle.timeline-event:hover {
   border: solid;
   border-radius: 20px;
   border-width: 10px;
-  border-color: #12B79E;
+  border-color: #12b79e;
 }
 
 .timeline-text {
@@ -106,14 +104,13 @@ circle.timeline-event:hover {
 
 /* PROGRAMS */
 #programs {
-  background-color: #909CC2;
+  background-color: #909cc2;
   padding: 20px;
   text-align: center;
   border-width: 10px;
-  border-color: #12B79E;
+  border-color: #12b79e;
   color: white;
 }
-
 
 .applications {
   padding: 0px;
@@ -127,6 +124,7 @@ circle.timeline-event:hover {
   margin-top: 20px;
   margin-bottom: 20px;
   padding-bottom: 10px;
+  height: 175px;
 }
 
 .application-category {
@@ -142,9 +140,8 @@ circle.timeline-event:hover {
 }
 
 .app-identifier {
-  color: #12B79E;
+  color: #12b79e;
 }
-
 
 /* Icons */
 i {
@@ -153,35 +150,32 @@ i {
 }
 
 i:hover {
-  color: #12B79E;
+  color: #12b79e;
 }
 
 .fa-css3-alt {
-  color: #2196F3;
+  color: #2196f3;
 }
 
 .fa-html5 {
-  color: #EF652A;
+  color: #ef652a;
 }
 
 .fa-js {
-  color: #F7DF1E;
+  color: #f7df1e;
 }
 
 .fa-react {
-  color: #56C2DE;
+  color: #56c2de;
 }
 
 .fa-bootstrap {
-  color: #563D7C;
-
+  color: #563d7c;
 }
 
 .fa-node-js {
-  color: #72B012;
-
+  color: #72b012;
 }
-
 
 .applications i {
   padding-left: 5px;

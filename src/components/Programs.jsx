@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 function Programs() {
-  const [programName, setProgramName] = useState("");
+  const [programName, setProgramName] = useState("______");
 
   function displayName(event) {
     const programName = event.target.id;
